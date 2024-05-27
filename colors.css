@@ -1,0 +1,36 @@
+/* Define white and dark grey color combination */
+:root {
+    --primary-color: #333333; /* Dark Grey */
+    --secondary-color: #ffffff; /* White */
+    --accent-color: #555555; /* Lighter Dark Grey */
+    --background-color: #ffffff; /* White */
+    --text-color: #333333; /* Dark Grey */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+nav ul {
+    background-color: var(--accent-color);
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+}
+
+.hero {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
